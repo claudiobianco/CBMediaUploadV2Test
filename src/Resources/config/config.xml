@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>Test Config</title>
+        <component name="sw-media-upload-v2">
+            <name>testUpload</name>
+            <label>Test Upload</label>
+            <uploadTag>testtag</uploadTag>
+            <allowMultiSelect>false</allowMultiSelect>
+        </component>
+        <component name="sw-upload-listener">
+            <name>testUploadListener</name>
+            <label>Test Upload Listener</label>
+            <uploadTag>testtag</uploadTag>
+            <autoUpload>true</autoUpload>
+        </component>
+    </card>
+</config>
